@@ -368,32 +368,20 @@ class YellowYaml {
     }
 }
 
-if (!function_exists('yaml_parse')) {
+if (!extension_loaded("yaml")) {
     function yaml_parse($input, $pos = null, $ndocs = null, $callbacks = null) {
         return YellowYaml::parse($input);
     }
-}
-
-if (!function_exists('yaml_parse_url')) {
     function yaml_parse_url($url, $pos = null, $ndocs = null, $callbacks = null) {
         return yaml_parse_file($url);
     }
-}
-
-if (!function_exists('yaml_parse_file')) {
     function yaml_parse_file($filename, $pos = null, $ndocs = null, $callbacks = null) {
         $content = file_get_contents($filename);
         return $content===false ? false : YellowYaml::parse($content);
     }
-}
-
-if (!function_exists('yaml_emit')) {
     function yaml_emit($data, $encoding = null, $linebreak = null, $callbacks = null) {
         return YellowYaml::make($data);
     }
-}
-
-if (!function_exists('yaml_emit_file')) {
     function yaml_emit_file($filename, $data, $encoding = null, $linebreak = null, $callbacks = null) {
         $content = YellowYaml::make($data);
         return (bool)file_put_contents($filename, $content);
