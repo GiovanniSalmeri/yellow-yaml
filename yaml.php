@@ -1,7 +1,6 @@
 <?php
 // Yaml extension, https://github.com/GiovanniSalmeri/yellow-yaml
 
-
 class YellowYaml {
     const VERSION = "0.8.18";
 
@@ -377,6 +376,7 @@ if (!extension_loaded("yaml")) {
     }
     function yaml_parse_file($filename, $pos = null, $ndocs = null, $callbacks = null) {
         $content = file_get_contents($filename);
+        if (substr($content, 0, 3)=="\xef\xbb\xbf") $content = substr($content, 3);
         return $content===false ? false : YellowYaml::parse($content);
     }
     function yaml_emit($data, $encoding = null, $linebreak = null, $callbacks = null) {
