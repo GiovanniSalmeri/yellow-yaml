@@ -62,4 +62,4 @@ This extension uses [Dipper](https://github.com/secondparty/dipper) by Second Pa
 
 ## Developer
 
-Giovanni Salmeri. [Get help](https://github.com/GiovanniSalmeri/yellow-yaml/issues).
+Giovanni Salmeri. [Get help](https://datenstrom.se/yellow/help/)
