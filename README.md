@@ -56,7 +56,7 @@ This is the same [example used in PHP documentation](https://www.php.net/manual/
 
 ## Installation
 
-[Download extension](https://github.com/GiovanniSalmeri/yellow-yaml/archive/master.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+[Download extension](https://github.com/GiovanniSalmeri/yellow-yaml/archive/main.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
 This extension uses [Dipper](https://github.com/secondparty/dipper) by Second Party.
 
