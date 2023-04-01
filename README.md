@@ -2,6 +2,10 @@ Yaml 0.8.18
 ===========
 YAML parser and emitter.
 
+## How to install an extension
+
+[Download ZIP file](https://github.com/GiovanniSalmeri/yellow-yaml/archive/main.zip) and copy it into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
+
 ## How to use Yaml from other extensions
 
 This extension provides the following YAML-related functions:
@@ -54,12 +58,10 @@ $parsed = yaml_parse($yaml);
 
 This is the same [example used in PHP documentation](https://www.php.net/manual/en/function.yaml-parse.php), adapted. Note the indentation after `product:`.
 
-## Installation
+## Acknowledgements
 
-[Download extension](https://github.com/GiovanniSalmeri/yellow-yaml/archive/main.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
-
-This extension uses [Dipper](https://github.com/secondparty/dipper) by Second Party.
+This extension uses [Dipper](https://github.com/secondparty/dipper) by Second Party. Thank you for the good work.
 
 ## Developer
 
-Giovanni Salmeri. [Get help](https://datenstrom.se/yellow/help/)
+Giovanni Salmeri. [Get help](https://datenstrom.se/yellow/help/).
