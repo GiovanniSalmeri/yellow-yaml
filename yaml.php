@@ -375,7 +375,7 @@ if (!extension_loaded("yaml")) {
         return yaml_parse_file($url);
     }
     function yaml_parse_file($filename, $pos = null, $ndocs = null, $callbacks = null) {
-        $content = file_get_contents($filename);
+        $content = @file_get_contents($filename);
         if (substr($content, 0, 3)=="\xef\xbb\xbf") $content = substr($content, 3);
         return $content===false ? false : YellowYaml::parse($content);
     }
