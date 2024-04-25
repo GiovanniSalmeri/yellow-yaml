@@ -2,7 +2,7 @@
 // Yaml extension, https://github.com/GiovanniSalmeri/yellow-yaml
 
 class YellowYaml {
-    const VERSION = "0.8.18";
+    const VERSION = "0.9.1";
 
 /**
  * Dipper
