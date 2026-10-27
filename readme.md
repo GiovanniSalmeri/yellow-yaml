@@ -1,6 +1,6 @@
-# Yaml 0.9.1
+# Yaml 1.0.0
 
-YAML parser and emitter.
+YAML parser and emitter. Developed by Giovanni Salmeri.
 
 ## How to install an extension
 
@@ -60,8 +60,6 @@ This is the same [example used in PHP documentation](https://www.php.net/manual/
 
 ## Acknowledgements
 
-This extension uses [Dipper](https://github.com/secondparty/dipper) by Second Party. Thank you for the good work.
+This extension includes [Dipper](https://github.com/secondparty/dipper) by Second Party. Thank you for the useful library.
 
-## Developer
-
-Giovanni Salmeri. [Get help](https://datenstrom.se/yellow/help/).
+Do you have questions? [Get help](https://datenstrom.se/yellow/help/).
